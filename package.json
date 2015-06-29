@@ -1,0 +1,29 @@
+{
+  "name": "hangout-viewer",
+  "version": "0.0.0",
+  "description": "Demo of the takeout-hangouts.",
+  "repository": "https://github.com/ddgromit/hangout-viewer",
+  "scripts": {
+    "watch": "webpack -w --config webpack/config.dev.js --progress --profile --colors",
+    "dev": "webpack-dev-server --config webpack/config.dev.js",
+    "build-for-production": "webpack --config webpack/config.prod.js --progress --profile --colors"
+  },
+  "author": "Derek Dahmer",
+  "dependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "css-loader": "^0.15.1",
+    "file-loader": "^0.8.4",
+    "jquery": "^2.1.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "lodash": "^3.9.3",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "devDependencies": {}
+}

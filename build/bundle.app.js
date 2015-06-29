@@ -1,0 +1,1 @@
+!function(r){function e(t){if(o[t])return o[t].exports;var l=o[t]={exports:{},id:t,loaded:!1};return r[t].call(l.exports,l,l.exports,e),l.loaded=!0,l.exports}var o={};return e.m=r,e.c=o,e.p="/build/",e(0)}([function(r,e){"use strict";console.log("app loaded"),alert("bla")}]);
