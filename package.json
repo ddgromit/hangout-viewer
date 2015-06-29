@@ -5,7 +5,7 @@
   "repository": "https://github.com/ddgromit/hangout-viewer",
   "scripts": {
     "watch": "webpack -w --config webpack/config.dev.js --progress --profile --colors",
-    "dev": "webpack-dev-server --config webpack/config.dev.js",
+    "dev": "webpack-dev-server --config webpack/config.dev.js --hot",
     "build-for-production": "webpack --config webpack/config.prod.js --progress --profile --colors"
   },
   "author": "Derek Dahmer",
